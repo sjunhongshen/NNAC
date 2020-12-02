@@ -1,0 +1,10 @@
+To replicate the CartPole-v1 experiments, go to the CartPole folder:
+1. NNAC.py: run NNAC with the internal state descriptors
+2. NNAC_img_l2: run NNAC with pixel input and l2 distance metric
+3. NNAC_img_learned_metric.ipybn: run NNAC with pixel input and the learned distance metric
+4. baselines.py: run deep RL baselines
+5. To run NEC, we use the code from https://github.com/EndingCredits/Neural-Episodic-Control.
+
+To replicate the MuJoCo experiments, go to the MuJoCo folder:
+main.py: provide the name of the algorithm, i.e., one of DDPG, TD3, NNDDPG and NNTD3, as well 
+	 as the name of the environment to run the experiment
