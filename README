@@ -1,3 +1,6 @@
+This is the code repository for the paper:
+Junhong Shen, Lin Yang, Theoretically Principled Deep RL Acceleration via Nearest Neighbor Function Approximation, AAAI 2021. 
+
 To replicate the CartPole-v1 experiments, go to the CartPole folder:
 1. NNAC.py: run NNAC with the internal state descriptors
 2. NNAC_img_l2: run NNAC with pixel input and l2 distance metric
